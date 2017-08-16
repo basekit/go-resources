@@ -43,9 +43,7 @@ body {
 // Main
 
 .main-content {
-
-    padding: 50px 40px;
-
+    padding: 50px 20px;
     @media @mobile {
         padding: 40px 0;
     }
@@ -148,8 +146,17 @@ body {
         padding: 20px 0px;
         margin: 0px auto;
         max-width: 830px;
+        @media only screen and (min-width: 769px) and (max-width : 909px) {
+            padding: 20px 60px;
+            max-width: 100%;
+        }
         @media @tablet {
+            padding: 20px 60px;
+        }
+        @media @mobile {
             padding: 20px 40px;
+            width: 100%;
+            display: block;
         }
     }
 
@@ -194,6 +201,10 @@ body {
     flex: 1 1 auto;
     .icon:before {
         font-size: 18px;
+    }
+    @media @mobile {
+        display: block;
+        margin-top: 10px;
     }
 }
 
