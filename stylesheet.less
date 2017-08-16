@@ -1,0 +1,202 @@
+// -------------------------------------
+// Template: Stylesheet
+// -------------------------------------
+
+
+#tdk-toolbar {
+    display: none!important;
+}
+
+
+
+// -----------------------------
+// #Imports
+// -----------------------------
+
+@import "@{templateCommon}/bk-less-framework-v8.less";  // LESS Framework v8
+
+@import "@{templateLocal}/less/typography.less";
+@import "@{templateLocal}/less/mixins.less";
+@import "@{templateLocal}/less/navigation.less";
+@import "@{templateLocal}/less/widgets.less";
+
+@import "@{templateLocal}/slick/slick.less";
+
+
+
+// ------------------------------
+// Site Styles
+// ------------------------------
+
+
+body {
+    
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 830px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+// Main
+
+.main-content {
+
+    padding: 50px 40px;
+
+    @media @mobile {
+        padding: 40px 0;
+    }
+}
+
+.content,
+.sidebar {
+  float: left;
+}
+
+.navigation {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 220px;
+    display: inline-block;
+    float: left;
+    padding-top: 30px;
+    @media only screen and (max-width : 909px) {
+        position: relative;
+        padding-top: 0;
+        padding: 0 40px;
+    }
+    @media @mobile {
+        width: 100%;
+    }
+}
+
+.content {
+    height: 100%;
+    overflow: scroll;
+    padding: 0 40px;
+    width: 100%;
+    max-width: 530px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 30px;
+}
+
+/* The sticky */
+.sidebar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+// Section
+.section {
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.your-class {
+    margin-bottom: 40px;
+}
+
+.paragraph-spacing {
+    margin: 10px 0 20px;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+
+
+// ------------------------------
+// #Global Styles
+// ------------------------------
+
+
+// #Header
+// ------------------------------
+
+.template-header,
+.template-footer {
+    position: relative;
+    width: 100%;
+    background-color: #2B2B2B;
+
+    .container {
+        .flex-display(@display: flex);
+        .align-items(@align: center);
+
+        padding: 20px 0px;
+        margin: 0px auto;
+        max-width: 830px;
+        @media @tablet {
+            padding: 20px 40px;
+        }
+    }
+
+    h1 {
+        color: #fff;
+        border-left: 2px solid #fff;
+        font-size: 16px;
+        margin-left: 20px;
+        padding-left: 20px;
+        line-height: 30px;
+        padding-bottom: 0;
+        font-weight: 700;
+    }
+
+    .logo-image {
+        width: 65px;
+    }
+
+    a {
+        color: #fff;
+    }
+}
+
+
+// #Footer
+// ------------------------------
+
+
+.template-footer {
+    background-color: #2B2B2B;
+}
+
+.footer-content {
+    a {
+        margin-right: 20px;
+    }
+}
+
+.social {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1 1 auto;
+    .icon:before {
+        font-size: 18px;
+    }
+}
+
+.socialicons__social-name {
+    display: none;
+}
+

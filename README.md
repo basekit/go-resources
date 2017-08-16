@@ -1,2 +1,2 @@
-# go-resources
-Basekit GO Resources page
+# sunset
+BaseKit / Amazon.jp Sunset Template

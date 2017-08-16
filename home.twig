@@ -1,0 +1,135 @@
+{% extends "layout.twig" %}
+
+{% block content %}
+
+{% include "includes/header.twig" %}
+
+<!-- Page Content -->
+<section class="page  page--home">
+
+    <div class="main-content">
+
+        <div class="wrapper cf">
+
+                <div class="navigation">
+
+                    <h4> Navigation </h4>
+
+                    <a href="#myAnchor1" rel="" id="anchor1" class="anchorLink">Template Screenshots</a>
+                    <a href="#myAnchor2" rel="" id="anchor2" class="anchorLink">Dynamic Images</a>
+                    <a href="#myAnchor3" rel="" id="anchor3" class="anchorLink">Editor Screenshots</a>
+                    <a href="#myAnchor4" rel="" id="anchor4" class="anchorLink">Landing Page</a>
+                    <a href="#myAnchor5" rel="" id="anchor5" class="anchorLink">Email Campaign</a>
+
+                </div>
+
+        <div class="content">
+
+            <section class="section intro">
+
+                <h1> Marketing Assets </h1>
+
+                <p class="paragraph-spacing"> Thanks for your interest in Go - Sitebuilder. We have a few guidelines for using our brand resources—please take a moment to familiarize yourself with them. You can download individual assets in each section. If you want everything, use the button below to download a .zip file: </p>
+
+                <a href="#" class="button">Download Set</a>
+
+            </section>
+
+            <section class="section template-screenshots name="myAnchor" id="myAnchor1">
+
+                <h2> Template Screenshots </h2>
+
+                <p class="paragraph-spacing"> Thanks for your interest in Go - Sitebuilder. We have a few guidelines for using our brand download here. </p>
+
+                <div class="your-class">
+                    <div><img src="{{asset('images/template-screenshot.jpg')}}"></div>
+                    <div><img src="{{asset('images/template-screenshot.jpg')}}"></div>
+                    <div><img src="{{asset('images/template-screenshot.jpg')}}"></div>
+                </div>
+
+                <a href="#" class="button">Download Set</a>
+
+            </section>
+
+            <section class="section dynamic-images name="myAnchor" id="myAnchor2">
+
+                <h2> Dynamic Images </h2>
+
+                <p class="paragraph-spacing"> Thanks for your interest in Go - Sitebuilder. We have a few guidelines for using our brand download here. </p>
+
+                <div class="your-class">
+                    <div><img src="{{asset('images/dynamic-images.jpg')}}"></div>
+                    <div><img src="{{asset('images/dynamic-images.jpg')}}"></div>
+                    <div><img src="{{asset('images/dynamic-images.jpg')}}"></div>
+                </div>
+
+                <a href="#" class="button">Download Set</a>
+
+            </section>
+
+            <section class="section editor-screenshots name="myAnchor" id="myAnchor3">
+
+                <h2> Editor Screenshots </h2>
+
+                <p class="paragraph-spacing"> Thanks for your interest in Go - Sitebuilder. We have a few guidelines for using our brand download here. </p>
+
+                <div class="your-class">
+                    <div><img src="{{asset('images/editor-screenshot.jpg')}}"></div>
+                    <div><img src="{{asset('images/editor-screenshot.jpg')}}"></div>
+                    <div><img src="{{asset('images/editor-screenshot.jpg')}}"></div>
+                </div>
+
+                <a href="#" class="button">Download Set</a>
+
+            </section>
+
+            <section class="section landing-page name="myAnchor" id="myAnchor4">
+
+                <h2> Landing Page </h2>
+
+                <p class="paragraph-spacing"> Thanks for your interest in Go - Sitebuilder. We have a few guidelines for using our brand download here. </p>
+
+                <div class="your-class">
+                    <div><img src="{{asset('images/template-screenshot.jpg')}}"></div>
+                    <div><img src="{{asset('images/template-screenshot.jpg')}}"></div>
+                    <div><img src="{{asset('images/template-screenshot.jpg')}}"></div>
+                </div>
+
+                <a href="#" class="button">Download Set</a>
+
+            </section>
+
+            <section class="section email-campaign name="myAnchor" id="myAnchor5">
+
+                <h2> Email Campaign </h2>
+
+                <p class="paragraph-spacing"> Thanks for your interest in Go - Sitebuilder. We have a few guidelines for using our brand download here. </p>
+
+                <div class="your-class">
+                    <div><img src="{{asset('images/template-screenshot.jpg')}}"></div>
+                    <div><img src="{{asset('images/template-screenshot.jpg')}}"></div>
+                    <div><img src="{{asset('images/template-screenshot.jpg')}}"></div>
+                </div>
+
+                <a href="#" class="button">Download Set</a>
+
+            </section>
+
+            </div>
+
+        </div>
+
+        <!-- Zone Content -->
+        <div class="container">
+            {# {{zone('main')|raw}} #}
+        </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+{% include "includes/footer.twig" %}
+
+{% endblock %}
