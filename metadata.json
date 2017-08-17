@@ -21,16 +21,16 @@
             "color1":"#ffffff",
             "color2":"#FBE6A1",
             "color3":"#494949",
-            "color4":"#424D51",
-            "color5":"#424D51",
+            "color4":"#3A3A3A",
+            "color5":"#5C5C5C",
             "color6":"#ffffff",
             "color7":"#9AA7B5"
         }
     },
     "fontSwatch": {
-       "title": "Karla / Merriweather",
+       "title": "Open Sans",
         "font1": {
-            "font-family": "\"Noto Sans\", sans-serif",
+            "font-family": "\"Open Sans\", sans-serif",
             "font-size": "32px",
             "font-weight": "700",
             "line-height": "54px",
@@ -38,7 +38,7 @@
             "letter-spacing": "inherit"
         },
         "font2": {
-            "font-family": "\"Noto Sans\", sans-serif",
+            "font-family": "\"Open Sans\", sans-serif",
             "font-size": "24px",
             "font-weight": "700",
             "line-height": "36px",
@@ -46,7 +46,7 @@
             "letter-spacing": "inherit"
         },
         "font3": {
-            "font-family": "\"Noto Sans\", sans-serif",
+            "font-family": "\"Open Sans\", sans-serif",
             "font-size": "22px",
             "font-weight": "700",
             "line-height": "42px",
@@ -54,7 +54,7 @@
             "letter-spacing": "inherit"
         },
         "font4": {
-            "font-family": "\"Noto Sans\", sans-serif",
+            "font-family": "\"Open Sans\", sans-serif",
             "font-size": "20px",
             "font-weight": "700",
             "line-height": "36px",
@@ -62,7 +62,7 @@
             "letter-spacing": "inherit"
         },
         "font5": {
-            "font-family": "\"Noto Sans\", sans-serif",
+            "font-family": "\"Open Sans\", sans-serif",
             "font-size": "18px",
             "font-weight": "400",
             "line-height": "27px",
@@ -70,7 +70,7 @@
             "letter-spacing": "inherit"
         },
         "font6": {
-            "font-family": "\"Noto Sans\", sans-serif",
+            "font-family": "\"Open Sans\", sans-serif",
             "font-size": "18px",
             "font-weight": "400",
             "line-height": "26px",
@@ -81,7 +81,7 @@
             "background-color-hover": "darken(@color-swatch3,8%)"
         },
         "font7": {
-            "font-family": "\"Noto Sans\", sans-serif",
+            "font-family": "\"Open Sans\", sans-serif",
             "font-size": "18px",
             "font-weight": "400",
             "line-height": "27px",
@@ -91,7 +91,7 @@
             "background-color-hover": "darken(@color-swatch3,5%)"
         },
         "font8": {
-            "font-family": "\"Noto Sans\", sans-serif",
+            "font-family": "\"Open Sans\", sans-serif",
             "font-size": "38px",
             "font-weight": "400",
             "line-height": "48px",
@@ -99,7 +99,7 @@
             "letter-spacing": "inherit"
         },
         "font9": {
-            "font-family": "\"Noto Sans\", sans-serif",
+            "font-family": "\"Open Sans\", sans-serif",
             "font-size": "20px",
             "font-weight": "400",
             "line-height": "27px",
@@ -107,7 +107,7 @@
             "letter-spacing": "inherit"
         },
         "font10": {
-            "font-family": "\"Noto Sans\", sans-serif",
+            "font-family": "\"Open Sans\", sans-serif",
             "font-size": "26px",
             "font-weight": "700",
             "line-height": "32px",
@@ -133,7 +133,7 @@
         },
         "typography": {
             "font__h1--font-family": "@font-swatch1-font-family",
-            "font__h1--font-size": "30px",
+            "font__h1--font-size": "35px",
             "font__h1--font-weight": "@font-swatch1-font-weight",
             "font__h1--line-height": "44px",
             "font__h1--letter-spacing": "@font-swatch1-letter-spacing",
@@ -161,7 +161,7 @@
             "font__p--font-weight" : "400",
             "font__p--line-height" : "30px",
             "font__p--letter-spacing" : "@font-swatch5-letter-spacing",
-            "color__p--text": "#747682"
+            "color__p--text": "#5C5C5C"
         },
         "header": {
             "color__header--background" : "#22242b"
@@ -172,7 +172,7 @@
             "font__navigation--font-weight": "300",
             "font__navigation--line-height": "26px",
             "font__navigation--letter-spacing": "0px",
-            "color__navigation--text": "#9a9ca5",
+            "color__navigation--text": "#5C5C5C",
             "color__navigation--text--selected": "#fff"
         },
         "form": {
