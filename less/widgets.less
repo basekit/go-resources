@@ -138,7 +138,7 @@ button,
     }
 }
 
-.button-spacing {
+. {
     margin-top: 30px!important;
 }
 
@@ -146,7 +146,7 @@ button,
     font-size: 0;
     line-height: 0;
     position: absolute;
-    top: 35%;
+    top: 42%;
     display: block;
     width: 20px;
     height: 20px;
@@ -177,23 +177,24 @@ button,
 
 .slick-prev:before, 
 .slick-next:before {
-    content: '\f105';
-    font-family: 'FontAwesome', sans-serif;
+    content: '';
     display: inline-block;
     font-size: 40px;
     line-height: 1;
     opacity: .75;
-    color: #000;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-repeat: no-repeat;
 }
 
 .slick-next:before {
     content: '\f105';
+    background-image: image('/images/arrow-right.svg');
 }
 
 .slick-prev:before {
     content: '\f104';
+    background-image: image('/images/arrow-left.svg');
 }
 
 
