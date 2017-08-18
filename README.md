@@ -1,2 +1,1 @@
-# sunset
-BaseKit / Amazon.jp Sunset Template
+# Go Resources
